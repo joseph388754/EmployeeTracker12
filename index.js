@@ -17,12 +17,12 @@ function employeeTracker() {
         name: 'main',
         message: 'Pick an Option.',
         choices: [
-            'View Your Departments',
-            'View Your Roles',
-            'View Your Employees',
-            'Add a Department',
-            'Add a Role',
-            'Add a Employee',
+            'View Departments',
+            'View Roles',
+            'View Employees',
+            'Add Department',
+            'Add Role',
+            'Add Employee',
             'Exit'
         ]
     }]).then((answer) => {
